@@ -6,26 +6,24 @@ namespace ExerciciosFundamentoCSharp
     {
         static void Main(string[] args)
         {
-            //1. Crie um programa em que o usuário precisa digitar a placa de um veículo e o programa verifica se a placa é válida, seguindo o padrão brasileiro válido até 2018:
-            //- A placa deve ter 7 caracteres alfanuméricos;
-            //- Os três primeiros caracteres são letras (maiúsculas ou minúsculas);
-            //- Os quatro últimos caracteres são números;
-    
-            //Ao final, o programa deve exibir ***Verdadeiro*** se a placa for válida e ***Falso*** caso contrário.
+                //Crie um programa que solicita ao usuário a exibição da data atual em diferentes formatos:
+                //- Formato completo (dia da semana, dia do mês, mês, ano, hora, minutos, segundos).
+                //- Apenas a data no formato "01/03/2024".
+                //- Apenas a hora no formato de 24 horas.
+                //- A data com o mês por extenso.
 
-            Console.Write("Digite a placa do carro: ");
-            string placa = Console.ReadLine();
-            string padrao = @"^[a-zA-Z]{3}\d{4}$";
-            ;
+                Console.Write("Digite a data atual: ");
+                DateTime dataAtual = DateTime.Parse(Console.ReadLine());
+                
 
-            if (Regex.IsMatch(placa, padrao))
-            {
-                Console.WriteLine("Placa Valida");
-            }
-            else
-            {
-                Console.WriteLine("Placa Invalida");
-            }
+                Console.WriteLine(dataAtual);
+                Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));
+                Console.WriteLine(dataAtual.ToString("HH:mm:ss"));
+                Console.WriteLine(dataAtual.ToString("dd MMMM yyyy"));
+                
+                
+                
+                
         }
     }
 }
