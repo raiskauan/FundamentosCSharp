@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciciosFundamentoCSharp", "ExerciciosFundamentoCSharp\ExerciciosFundamentoCSharp.csproj", "{CDE727C0-D88A-4144-A392-C4F2DB5B6733}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDE727C0-D88A-4144-A392-C4F2DB5B6733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE727C0-D88A-4144-A392-C4F2DB5B6733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE727C0-D88A-4144-A392-C4F2DB5B6733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE727C0-D88A-4144-A392-C4F2DB5B6733}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
